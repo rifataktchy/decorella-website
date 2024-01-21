@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/decorella-website/static/css/main.07d79ae7.css",
+    "main.js": "/decorella-website/static/js/main.dfd00f33.js",
+    "static/media/work1.jpg": "/decorella-website/static/media/work1.aabab87c6424f2fe8bf5.jpg",
+    "static/media/work4.jpg": "/decorella-website/static/media/work4.de039d3184980c3f6b80.jpg",
+    "static/media/work2.jpg": "/decorella-website/static/media/work2.b5a082b4bd23bfb58a7f.jpg",
+    "static/media/work3.jpg": "/decorella-website/static/media/work3.d8eed69afb4f713b370f.jpg",
+    "static/media/background.jpg": "/decorella-website/static/media/background.c0311e6509b5381b3899.jpg",
+    "index.html": "/decorella-website/index.html",
+    "main.07d79ae7.css.map": "/decorella-website/static/css/main.07d79ae7.css.map",
+    "main.dfd00f33.js.map": "/decorella-website/static/js/main.dfd00f33.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07d79ae7.css",
+    "static/js/main.dfd00f33.js"
+  ]
+}
