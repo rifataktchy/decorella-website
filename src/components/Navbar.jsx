@@ -7,6 +7,7 @@ import {
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
+
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -14,7 +15,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#3d3d3d] text-white'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#f0f0f3] text-ash'>
       <div>
         
       </div>
@@ -29,11 +30,6 @@ const Navbar = () => {
         <li>
           <Link to='about' smooth={true} duration={500}>
             About
-          </Link>
-        </li>
-        <li>
-          <Link to='skills' smooth={true} duration={500}>
-            Skills
           </Link>
         </li>
         <li>
@@ -92,43 +88,7 @@ const Navbar = () => {
         </li>
       </ul>
 
-      {/* Social icons */}
-      <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
-        <ul>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='https://www.linkedin.com/in/rifhat-akther-chowdhury-543463255/'
-            >
-              Linkedin <FaLinkedin size={30} />
-            </a>
-          </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='https://github.com/dashboard/'
-            >
-              Github <FaGithub size={30} />
-            </a>
-          </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#677525]'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='rifataktchy@gmail.com/'
-            >
-              Email <HiOutlineMail size={30} />
-            </a>
-          </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='/'
-            >
-              Resume <BsFillPersonLinesFill size={30} />
-            </a>
-          </li>
-        </ul>
-      </div>
+      
     </div>
   );
 };
